@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.html, body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-color-eve {
+  background-color: #5E60CE;
+}
+
+.link-color {
+  color: #1E1E1E;
+}
