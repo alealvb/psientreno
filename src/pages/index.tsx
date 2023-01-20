@@ -3,8 +3,10 @@ import Head from "next/head";
 import Link from "next/link";
 
 import Image from "next/image";
+import { useWindowSize } from "../hooks/useWindowSize";
 
 const Home: NextPage = () => {
+  const size = useWindowSize();
   return (
     <>
       <Head>
@@ -18,8 +20,8 @@ const Home: NextPage = () => {
           rel="stylesheet"
         />
       </Head>
-      <main className="flex min-h-screen flex-col items-center bg-stone-700">
-        <nav className="sticky top-0 z-30 px-3 flex h-24 w-full flex-wrap items-center justify-around bg-white">
+      <main className="min-h-scree h-fit bg-black">
+        <nav className="sticky top-0 z-30 flex h-24 w-full flex-wrap items-center justify-around bg-white px-3">
           <div className="ml-16 mr-16 flex flex-shrink-0 items-center text-white">
             <span className="mb-3 text-xl font-semibold tracking-tight">
               <Link href="/">
@@ -49,7 +51,7 @@ const Home: NextPage = () => {
               </span>
             </Link>
             <Link href="#">
-              <span className="bg-color-eve block rounded py-3 px-4 text-white hover:bg-violet-900 mt-0 lg:inline-block">
+              <span className="bg-color-eve mt-0 block rounded py-3 px-4 text-white hover:bg-violet-900 lg:inline-block">
                 Iniciar mi Entrenamiento Mental
               </span>
             </Link>
@@ -60,10 +62,39 @@ const Home: NextPage = () => {
             </Link>
           </div>
         </nav>
-        <div className="flex flex-1 flex-col items-center justify-center px-20 text-center">
-          <Image src="/images/handshake.png" alt="me" width="64" height="64" />
-          aldhasd
-        </div>
+        <section className="main-section flex h-screen w-full flex-1 flex-col items-center justify-center overflow-hidden text-center">
+          <h1 className="text-5xl font-black text-white">
+            HAGAMOS QUE TU MENTE <br /> JUEGUE A TU FAVOR
+          </h1>
+          <div className="wavy-background absolute bottom-0 w-full">
+            <Image
+              src={"/images/blue-background.svg"}
+              alt="hero"
+              width={size.width}
+              height={0}
+            />
+          </div>
+        </section>
+        <section className="wavy-background-color section relative flex h-screen w-full flex-1 flex-col items-center justify-center text-center pb-48">
+          <div className="face-logo absolute top-0">
+            <Image
+              src={"/images/face-logo.svg"}
+              alt="hero"
+              width={300}
+              height={0}
+            />
+          </div>
+          <h2 className="secondary-text-color mb-8 text-2xl font-bold">
+            ¿Te interesa?
+          </h2>
+          <h1 className="text-5xl font-black text-white">
+            Entrena con un psicólogo deportivo
+            <br /> y lleva tu rendimiento <br /> deportivo al siguiente nivel
+          </h1>
+          <h3 className="text-white mt-6 ">
+            Como psicologo deportivo es mucho lo que puedo hacer por ti.
+          </h3>
+        </section>
       </main>
     </>
   );
