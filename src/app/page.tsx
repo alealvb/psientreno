@@ -79,7 +79,7 @@ export default async function Home() {
         <Image
           src={"/images/face-logo.svg"}
           alt="hero"
-          width={300}
+          width={200}
           height={0}
         />
         <b className="mt-12 text-2xl text-white">¿Te interesa?</b>
