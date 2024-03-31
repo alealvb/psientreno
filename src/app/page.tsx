@@ -82,14 +82,14 @@ export default async function Home() {
           width={200}
           height={0}
         />
-        <b className="mt-12 text-2xl text-white">¿Te interesa?</b>
+        <b className="mt-12 text-xl text-white">¿Te interesa?</b>
 
-        <h1 className="mt-10 px-20 text-center text-5xl font-black text-white">
+        <h2 className="mt-10 px-20 text-center text-3xl font-black text-white">
           Entrena con un Psicólogo Deportivo y lleva tu bienestar y rendimiento
           al siguiente nivel
-        </h1>
+        </h2>
 
-        <p className="mt-12 text-2xl text-white">Como psicologo deportivo es mucho lo que puedo hacer por ti</p>
+        <p className="mt-12 text-xl text-white">Como psicologo deportivo es mucho lo que puedo hacer por ti</p>
       </section>
       {/* <section className="wavy-background-color section relative flex h-screen w-full flex-1 flex-col items-center justify-center text-center pb-48">
           <div className="face-logo absolute top-0">
