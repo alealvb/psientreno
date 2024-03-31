@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('network.css');
+
+.html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-color-eve {
+  background-color: #0f172a;
+}
+
+.bg-color-eve:hover {
+  background-color: #5e60ce;
+}
+
+.link-color {
+  color: #1e1e1e;
+}
+
+.main-section .images {
+  background-image: url("/images/handshake.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-section h1 {
+  margin-top: -7rem;
+}
+
+.main-section .message {
+  background-color: #0f172a;
+}
+
+.wavy-background {
+  bottom: -10rem;
+  overflow: hidden;
+  height: 20rem;
+}
+
+.wavy-background-color {
+  background-color: #019cdf;
+}
+
+.face-logo {
+  top: -20rem;
+}
+
+.secondary-text-color {
+  color: #1E1E1E;
+}
+
+.interest-section {
+  background-color: #019cdf;
+}
+
+.primary-text-color {
+  color: #0f172a;
+}
