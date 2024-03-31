@@ -89,7 +89,7 @@ export default async function Home() {
           al siguiente nivel
         </h2>
 
-        <p className="mt-12 text-xl text-white">Como psicologo deportivo es mucho lo que puedo hacer por ti</p>
+        <p className="mt-12 text-xl text-white">Como psicólogo deportivo es mucho lo que puedo hacer por ti</p>
       </section>
       {/* <section className="wavy-background-color section relative flex h-screen w-full flex-1 flex-col items-center justify-center text-center pb-48">
           <div className="face-logo absolute top-0">
