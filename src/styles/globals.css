@@ -59,3 +59,8 @@ body {
 .primary-text-color {
   color: #0f172a;
 }
+
+.rect {
+  width: 200px;
+  height: 150px;
+}

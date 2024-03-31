@@ -89,28 +89,61 @@ export default async function Home() {
           al siguiente nivel
         </h2>
 
-        <p className="mt-12 text-xl text-white">Como psicólogo deportivo es mucho lo que puedo hacer por ti</p>
-      </section>
-      {/* <section className="wavy-background-color section relative flex h-screen w-full flex-1 flex-col items-center justify-center text-center pb-48">
-          <div className="face-logo absolute top-0">
+        <p className="mt-12 text-xl text-white">
+          Como psicólogo deportivo es mucho lo que puedo hacer por ti
+        </p>
+
+        <div className="mt-20 flex w-full flex-col px-20 xl:px-60">
+          <div className="mt-20 flex w-full">
+            <Image src="/images/phone.png" width={200} height={0} alt="phone" />
+            <div className="text-description ml-12 w-full">
+              <h3 className="w-full border-b-2 border-solid text-2xl text-white">
+                Espacio online
+              </h3>
+              <p className="mt-4 text-xl text-white">
+                Sabemos que como deportista tus horarios pueden ser complicados.
+                Nos coordinamos para que puedas conectarte a tus sesiones de
+                entrenamiento mental desde donde quieras.
+              </p>
+            </div>
+          </div>
+          <div className="mt-20 flex w-full">
+            <div className="text-description w-full">
+              <h3 className="w-full border-b-2 border-solid text-2xl text-white">
+                Tu mente a tu favor
+              </h3>
+              <p className="mt-4 text-xl text-white">
+                Tu mente siempre esta contigo, pero no siempre te apoya. Miedo,
+                ansiedad, pensamientos excesivos pueden hacer que sea realmente
+                dificil tener una buena ejecuccion en cancha. Trabajemos para
+                cambiar eso.
+              </p>
+            </div>
             <Image
-              src={"/images/face-logo.svg"}
-              alt="hero"
-              width={300}
+              className="ml-12"
+              src="/images/brain.png"
+              width={200}
               height={0}
+              alt="phone"
             />
           </div>
-          <h2 className="secondary-text-color mb-8 text-2xl font-bold">
-            ¿Te interesa?
-          </h2>
-          <h1 className="text-5xl font-black text-white">
-            Entrena con un psicólogo deportivo
-            <br /> y lleva tu rendimiento <br /> deportivo al siguiente nivel
-          </h1>
-          <h3 className="text-white mt-6 ">
-            Como psicologo deportivo es mucho lo que puedo hacer por ti.
-          </h3>
-        </section> */}
+          <div className="mt-20 flex w-full">
+            <Image src="/images/tablet.png" width={200} height={0} alt="phone" className="rect" />
+            <div className="text-description ml-12 w-full">
+              <h3 className="w-full border-b-2 border-solid text-2xl text-white">
+                Atención personalizada
+              </h3>
+              <p className="mt-4 text-xl text-white">
+                Este no se trata de un entrenamiento generico, ni de algo que
+                podras conseguir en videos de Youtube. En este espacio nos
+                acercamos de manera autentica a conocer tu realidad y en base a
+                ella, brindarte herramientas que son especificos a tus
+                necesidades.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     // <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
     //   <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
